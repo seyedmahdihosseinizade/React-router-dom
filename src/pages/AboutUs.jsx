@@ -1,10 +1,8 @@
-import Layout from "../Layouts/Layout";
 
 const AboutUs = () => {
     return (
-        <Layout >
-            This is about-us
-        </Layout>
+            <h5>This is AboutUs page</h5>
+        
     );
 }
 

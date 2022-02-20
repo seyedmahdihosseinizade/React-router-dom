@@ -1,11 +1,10 @@
-import Layout from "../Layouts/Layout";
 
 
 const HomePage = () => {
     return (
-        <Layout >
+        <h5>            
             This is HomePage
-        </Layout>
+        </h5>    
     );
 }
  
