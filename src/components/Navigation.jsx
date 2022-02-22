@@ -12,6 +12,9 @@ const Navigation = (props) => {
                 <li>
                     <NavLink to='/about-us' activeClassName={styles.activeColor} >About-us</NavLink>
                 </li>
+                <li>
+                    <NavLink to='/profile' activeClassName={styles.activeColor} >Profile</NavLink>
+                </li>
             </ul>
         </nav>
     );
