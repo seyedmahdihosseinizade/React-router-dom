@@ -2,7 +2,7 @@ import { Link ,NavLink,withRouter} from "react-router-dom";
 import styles from './css/Navigation.module.css'
 
 const Navigation = (props) => {
-    console.log(props);
+    // console.log(props);
     return (
         <nav>
             <ul className={styles.ul}>
@@ -14,6 +14,9 @@ const Navigation = (props) => {
                 </li>
                 <li>
                     <NavLink to='/profile' activeClassName={styles.activeColor} >Profile</NavLink>
+                </li>
+                <li>
+                    <NavLink to='/blogs' activeClassName={styles.activeColor} >blogs</NavLink>
                 </li>
             </ul>
         </nav>
